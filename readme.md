@@ -48,5 +48,6 @@ Archivos creados:
 5. QAT_MNIST.ipynb (**12 noviembre**) --> `Quantization Aware Training (QAT) using Larq for binarized quantization with the MNIST`
 6. QAT_CIFAR10.ipynb (**20 noviembre**) --> `Quantization Aware Training (QAT) using Larq for binarized quantization with the CIFAR10 dataset`: A simple CNN binarized vs CNN to classify CIFAR10 - *Comparison of Model Size, Performance, and Speed*.
 7. QAT_MNIST_NOISY.ipynb (**25 noviembre**) --> `Quantization Aware Training (QAT) using Larq for a noisy binarized quantization with the CIFAR10 dataset`: `NoisyLayer` wraps `QuantConv2D` and `QuantDense`. Noise is considered Gaussian (most comun noise soruces in hardware like thermal and electronic noise assumed Gaussian noises)
+8. QAT_MNIST_NOISY.ipynb (**10 diciembre**) 
 
-Este último archivo es el comienzo de ampliaciones buscando simular ademas del ruido 
+Este último archivo es el comienzo de ampliaciones buscando simular ademas del ruido las perturbaciones CMOS. 
